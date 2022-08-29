@@ -78,7 +78,7 @@ function isWinner(p) {
 function result() {
 	block_board();
 	if(winner!="")
-		document.getElementById("message").innerText = winner + " Won...";
+		document.getElementById("message").innerText = winner + " Won!!!";
 	else
 		document.getElementById("message").innerText = "No one won, Try again...";
 	celebrate();
